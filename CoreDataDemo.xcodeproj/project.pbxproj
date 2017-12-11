@@ -16,6 +16,13 @@
 		7671E8071FDA86290094CE50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671E8061FDA86290094CE50 /* main.m */; };
 		7671E8111FDA86290094CE50 /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671E8101FDA86290094CE50 /* CoreDataDemoTests.m */; };
 		7671E81C1FDA86290094CE50 /* CoreDataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671E81B1FDA86290094CE50 /* CoreDataDemoUITests.m */; };
+		7671E82E1FDA875E0094CE50 /* Contact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671E82C1FDA875E0094CE50 /* Contact+CoreDataProperties.m */; };
+		7671E8311FDA87FB0094CE50 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671E8301FDA87FB0094CE50 /* CommonTool.m */; };
+		76DA96DB1FDE069E00873124 /* XBCoreDataStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA96DA1FDE069E00873124 /* XBCoreDataStackManager.m */; };
+		76DA96DE1FDE0D2000873124 /* ZxkRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA96DD1FDE0D2000873124 /* ZxkRegular.m */; };
+		76DA96E11FDE0DD300873124 /* ContactListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA96E01FDE0DD300873124 /* ContactListVC.m */; };
+		76DA96E41FDE0DF300873124 /* AddContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA96E31FDE0DF300873124 /* AddContactVC.m */; };
+		76DA96E71FDE0E1700873124 /* EditContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA96E61FDE0E1700873124 /* EditContactVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,21 @@
 		7671E8171FDA86290094CE50 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7671E81B1FDA86290094CE50 /* CoreDataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoUITests.m; sourceTree = "<group>"; };
 		7671E81D1FDA86290094CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7671E82B1FDA875E0094CE50 /* Contact+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7671E82C1FDA875E0094CE50 /* Contact+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7671E82F1FDA87FB0094CE50 /* CommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		7671E8301FDA87FB0094CE50 /* CommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		76DA96D91FDE069E00873124 /* XBCoreDataStackManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCoreDataStackManager.h; sourceTree = "<group>"; };
+		76DA96DA1FDE069E00873124 /* XBCoreDataStackManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBCoreDataStackManager.m; sourceTree = "<group>"; };
+		76DA96DC1FDE0D1F00873124 /* ZxkRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZxkRegular.h; sourceTree = "<group>"; };
+		76DA96DD1FDE0D2000873124 /* ZxkRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZxkRegular.m; sourceTree = "<group>"; };
+		76DA96DF1FDE0DD300873124 /* ContactListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactListVC.h; sourceTree = "<group>"; };
+		76DA96E01FDE0DD300873124 /* ContactListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListVC.m; sourceTree = "<group>"; };
+		76DA96E21FDE0DF300873124 /* AddContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddContactVC.h; sourceTree = "<group>"; };
+		76DA96E31FDE0DF300873124 /* AddContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddContactVC.m; sourceTree = "<group>"; };
+		76DA96E51FDE0E1700873124 /* EditContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditContactVC.h; sourceTree = "<group>"; };
+		76DA96E61FDE0E1700873124 /* EditContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditContactVC.m; sourceTree = "<group>"; };
+		76DA96E81FDE0E8000873124 /* CoreDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +105,15 @@
 		7671E7E81FDA86290094CE50 = {
 			isa = PBXGroup;
 			children = (
+				7671E82F1FDA87FB0094CE50 /* CommonTool.h */,
+				7671E8301FDA87FB0094CE50 /* CommonTool.m */,
+				76DA96E81FDE0E8000873124 /* CoreDataTool.h */,
+				76DA96D91FDE069E00873124 /* XBCoreDataStackManager.h */,
+				76DA96DA1FDE069E00873124 /* XBCoreDataStackManager.m */,
+				76DA96DC1FDE0D1F00873124 /* ZxkRegular.h */,
+				76DA96DD1FDE0D2000873124 /* ZxkRegular.m */,
+				7671E82B1FDA875E0094CE50 /* Contact+CoreDataProperties.h */,
+				7671E82C1FDA875E0094CE50 /* Contact+CoreDataProperties.m */,
 				7671E7F31FDA86290094CE50 /* CoreDataDemo */,
 				7671E80F1FDA86290094CE50 /* CoreDataDemoTests */,
 				7671E81A1FDA86290094CE50 /* CoreDataDemoUITests */,
@@ -107,6 +138,12 @@
 				7671E7F51FDA86290094CE50 /* AppDelegate.m */,
 				7671E7F71FDA86290094CE50 /* ViewController.h */,
 				7671E7F81FDA86290094CE50 /* ViewController.m */,
+				76DA96DF1FDE0DD300873124 /* ContactListVC.h */,
+				76DA96E01FDE0DD300873124 /* ContactListVC.m */,
+				76DA96E21FDE0DF300873124 /* AddContactVC.h */,
+				76DA96E31FDE0DF300873124 /* AddContactVC.m */,
+				76DA96E51FDE0E1700873124 /* EditContactVC.h */,
+				76DA96E61FDE0E1700873124 /* EditContactVC.m */,
 				7671E7FA1FDA86290094CE50 /* Main.storyboard */,
 				7671E8001FDA86290094CE50 /* Assets.xcassets */,
 				7671E8021FDA86290094CE50 /* LaunchScreen.storyboard */,
@@ -269,9 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7671E7F91FDA86290094CE50 /* ViewController.m in Sources */,
+				76DA96E41FDE0DF300873124 /* AddContactVC.m in Sources */,
+				76DA96DB1FDE069E00873124 /* XBCoreDataStackManager.m in Sources */,
+				76DA96DE1FDE0D2000873124 /* ZxkRegular.m in Sources */,
 				7671E7FF1FDA86290094CE50 /* CoreDataDemo.xcdatamodeld in Sources */,
+				76DA96E71FDE0E1700873124 /* EditContactVC.m in Sources */,
+				7671E8311FDA87FB0094CE50 /* CommonTool.m in Sources */,
 				7671E8071FDA86290094CE50 /* main.m in Sources */,
 				7671E7F61FDA86290094CE50 /* AppDelegate.m in Sources */,
+				7671E82E1FDA875E0094CE50 /* Contact+CoreDataProperties.m in Sources */,
+				76DA96E11FDE0DD300873124 /* ContactListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
